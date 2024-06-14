@@ -10,7 +10,7 @@ mongoose.connect(DB_HOST);
 
 async function seedUserImages() {
   const images = [];
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 100000; i++) {
     images.push({
       image: faker.image.url(),
     });

@@ -10,7 +10,7 @@ mongoose.connect(DB_HOST);
 async function seedUsers() {
   const users = [];
 
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 10000; i++) {
     users.push({
       name: faker.internet.userName(),
       city: faker.location.city(),
